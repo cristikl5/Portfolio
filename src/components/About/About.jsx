@@ -39,25 +39,18 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'My name is Calaras Cristian I\'m a 20 year old Front End Engineer based in Chisinau.I describe myself as a passionate developer who loves coding, open source, and the web platform'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    ''}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || ''}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
+
                   </span>
                 )}
               </div>
