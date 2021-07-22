@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
     {
         id: nanoid(),
-        img: 'project.jpg',
-        title: '',
-        info: '',
+        img: 'img.png',
+        title: 'Exense Tracker',
+        info: 'An expense tracker is a software or application that helps to keep an accurate record of your money inflow and outflow',
         info2: '',
-        url: '',
-        repo: '', // if no repo, the button will not show up
+        url: 'https://expense-tracker5.herokuapp.com/',
+        repo: 'https://github.com/cristikl5/ExpenseTracker', // if no repo, the button will not show up
     },
     {
         id: nanoid(),
