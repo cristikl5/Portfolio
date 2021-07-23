@@ -39,9 +39,9 @@ export const projectsData = [
         id: nanoid(),
         img: 'img_1.png',
         title: ' Angular Login&Register App with Firebase and REST Api',
-        info: 'Login&Register with Firebase and REST Api Table',
+        info: 'Login&Register with Firebase and REST Api ',
         info2: '',
-        url: '',
+        url:'',
         repo: 'https://github.com/cristikl5/Angular-CRM-App', // if no repo, the button will not show up
     },
 ];
