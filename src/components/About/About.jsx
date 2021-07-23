@@ -38,8 +38,7 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'My name is Calaras Cristian I\'m a 20 year old Front End Engineer based in Chisinau.I describe myself as a passionate developer who loves coding, open source, and the web platform'}
+                  {paragraphOne}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
