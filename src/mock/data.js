@@ -2,7 +2,7 @@ import {nanoid} from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-    title: '', // e.g: 'Name | Developer'
+    title: 'My Portfolio', // e.g: 'Name | Developer'
     lang: '', // e.g: en, es, fr, jp
     description: '', // e.g: Welcome to my website
 };
@@ -28,8 +28,8 @@ export const aboutData = {
 export const projectsData = [
     {
         id: nanoid(),
-        img: 'img.png',
-        title: 'Exense Tracker',
+        img: 'img_2.png',
+        title: 'React.js Expense Tracker',
         info: 'An expense tracker is a software or application that helps to keep an accurate record of your money inflow and outflow',
         info2: '',
         url: 'https://expense-tracker5.herokuapp.com/',
@@ -37,21 +37,12 @@ export const projectsData = [
     },
     {
         id: nanoid(),
-        img: 'project.jpg',
-        title: '',
-        info: '',
+        img: 'img_1.png',
+        title: ' Angular Login&Register App with Firebase and REST Api',
+        info: 'Login&Register with Firebase and REST Api Table',
         info2: '',
         url: '',
-        repo: '', // if no repo, the button will not show up
-    },
-    {
-        id: nanoid(),
-        img: 'project.jpg',
-        title: '',
-        info: '',
-        info2: '',
-        url: '',
-        repo: '', // if no repo, the button will not show up
+        repo: 'https://github.com/cristikl5/Angular-CRM-App', // if no repo, the button will not show up
     },
 ];
 
