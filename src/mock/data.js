@@ -17,8 +17,8 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-    img: 'MainPhoto.jpg',
-    paragraphOne: 'My name is Calaras Cristian I\'m a Front End Developer based in Chisinau.I describe myself as a passionate developer who loves coding, open source, and the web platform',
+    img: 'photo3x42.jpg',
+    paragraphOne: 'My name is Calaras Cristian I\'m a  Front End Developer based in Chisinau.I describe myself as a passionate developer who loves coding, open source, and the web platform',
     paragraphTwo: '',
     paragraphThree: '',
     resume: '',
