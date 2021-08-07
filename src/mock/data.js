@@ -44,6 +44,14 @@ export const projectsData = [
         url:'',
         repo: 'https://github.com/cristikl5/Angular-CRM-App', // if no repo, the button will not show up
     },
+    {
+        id: nanoid(),
+        img: 'img_3.png',
+        title: 'CleverGiver',
+        info: 'Angular Development',
+        info2: '',
+        url:'https://clevergiver.com/',
+    },
 ];
 
 // CONTACT DATA
