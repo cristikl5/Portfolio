@@ -62,6 +62,14 @@ export const projectsData = [
     info2: '',
     url: 'https://bizleads.com/',
   },
+  {
+    id: nanoid(),
+    img: 'img_4.png',
+    title: 'boom! Mobile',
+    info: 'Angular Development',
+    info2: '',
+    url: 'https://boom.us/',
+  },
 ];
 
 // CONTACT DATA
