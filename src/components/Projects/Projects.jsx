@@ -1,10 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
-import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
-import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import SubTitle from '../SubTitle/SubTitle';
+import Title from '../Title/Title';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -27,6 +28,7 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
+          <SubTitle subTitle="Angular" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
@@ -49,14 +51,16 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      {url && (<a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url}
-                      >
-                        See Live
-                      </a>)}
+                      {url && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
+                          href={url}
+                        >
+                          See Live
+                        </a>
+                      )}
 
                       {repo && (
                         <a

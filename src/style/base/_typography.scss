@@ -34,6 +34,18 @@ a:hover {
   }
 }
 
+.sub-section-title {
+  margin: 0;
+  margin-bottom: 3.5rem;
+  font-size: $mid-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  @include respond(phone) {
+    font-size: 1.8rem;
+  }
+}
+
 .dark-blue-text {
   color: $dark-blue-text !important;
 }

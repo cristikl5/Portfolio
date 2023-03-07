@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'photo3x42.jpg',
+  img: 'personal3x4.jpg',
   paragraphOne:
     "My name is Calaras Cristian I'm a  Front End Developer based in Chisinau.I describe myself as a passionate developer who loves coding, open source, and the web platform",
   paragraphTwo: '',
@@ -27,25 +27,6 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-  {
-    id: nanoid(),
-    img: 'img_2.png',
-    title: 'React.js Expense Tracker',
-    info:
-      'An expense tracker is a software or application that helps to keep an accurate record of your money inflow and outflow',
-    info2: '',
-    url: 'https://expense-tracker5.herokuapp.com/',
-    repo: 'https://github.com/cristikl5/ExpenseTracker', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'img_1.png',
-    title: ' Angular Login&Register App with Firebase and REST Api',
-    info: 'Login&Register with Firebase and REST Api ',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cristikl5/Angular-CRM-App', // if no repo, the button will not show up
-  },
   {
     id: nanoid(),
     img: 'img_3.png',
@@ -70,6 +51,15 @@ export const projectsData = [
     info2: '',
     url: 'https://boom.us/',
   },
+  {
+    id: nanoid(),
+    img: 'img_1.png',
+    title: ' Angular Login&Register App with Firebase and REST Api',
+    info: 'Login&Register with Firebase and REST Api ',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cristikl5/Angular-CRM-App', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
@@ -86,11 +76,6 @@ export const footerData = {
       id: nanoid(),
       name: 'linkedin',
       url: 'https://linkedin.com/in/cristikl',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/cristikl5',
     },
   ],
 };
