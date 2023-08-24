@@ -32,7 +32,11 @@ export const projectsData = [
     img: 'img_3.png',
     title: 'CleverGiver',
     info: 'Angular Development',
-    info2: '',
+    info2: [
+      "Developed reusable UI components such as buttons, modals, and input fields using Angular's component architecture",
+      'Configured and managed routes using Angular Router, enabling sea mless navigation between different views and enhancing overall application structure.',
+      "Implemented REST API's",
+    ],
     url: 'https://clevergiver.com/',
   },
   {
@@ -40,7 +44,12 @@ export const projectsData = [
     img: 'bizleads-snapshot.png',
     title: 'Bizleads',
     info: 'Angular Development',
-    info2: '',
+    info2: [
+      'Created end-to-end tests using Protractor for robust and automated testing of application functionality later transitioned to using Cypress for improved testing efficiency and reliability',
+      'Designed and developed a comprehensive management dashboard catering to staff needs, enhancing operational efficiency.',
+      'Implemented a subscription based API for managing payments',
+      'Subscription API Integration (Integrated a subscription-based API to facilitate seamless payment management)',
+    ],
     url: 'https://bizleads.com/',
   },
   {
@@ -48,7 +57,11 @@ export const projectsData = [
     img: 'img_4.png',
     title: 'boom! Mobile',
     info: 'Angular Development',
-    info2: '',
+    info2: [
+      'Designed and developed dashboard for customers with charts using Apex Charts and bootstrap tables',
+      'Organized dashboard for reusable use on different roles',
+      "Implemented REST API's",
+    ],
     url: 'https://boom.us/',
   },
   {
@@ -56,7 +69,10 @@ export const projectsData = [
     img: 'img_1.png',
     title: ' Angular Login&Register App with Firebase and REST Api',
     info: 'Login&Register with Firebase and REST Api ',
-    info2: '',
+    info2: [
+      'Simple CRUD app with login and register',
+      'Google-based authentication with help of Firebase',
+    ],
     url: '',
     repo: 'https://github.com/cristikl5/Angular-CRM-App', // if no repo, the button will not show up
   },
