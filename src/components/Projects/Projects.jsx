@@ -49,7 +49,7 @@ const Projects = () => {
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
-                        <ul style={{ fontSize: '1.2rem' }}>
+                        <ul style={{ fontSize: '1.5rem' }}>
                           {info2.map((point) => (
                             <li>{point}</li>
                           ))}
