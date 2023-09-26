@@ -29,18 +29,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'img_3.png',
-    title: 'CleverGiver',
-    info: 'Angular Development',
-    info2: [
-      "Developed reusable UI components such as buttons, modals, and input fields using Angular's component architecture",
-      'Configured and managed routes using Angular Router, enabling sea mless navigation between different views and enhancing overall application structure.',
-      "Implemented REST API's",
-    ],
-    url: 'https://clevergiver.com/',
-  },
-  {
-    id: nanoid(),
     img: 'bizleads-snapshot.png',
     title: 'Bizleads',
     info: 'Angular Development',
@@ -63,18 +51,6 @@ export const projectsData = [
       "Implemented REST API's",
     ],
     url: 'https://boom.us/',
-  },
-  {
-    id: nanoid(),
-    img: 'img_1.png',
-    title: ' Angular Login&Register App with Firebase and REST Api',
-    info: 'Login&Register with Firebase and REST Api ',
-    info2: [
-      'Simple CRUD app with login and register',
-      'Google-based authentication with help of Firebase',
-    ],
-    url: '',
-    repo: 'https://github.com/cristikl5/Angular-CRM-App', // if no repo, the button will not show up
   },
 ];
 
