@@ -59,11 +59,12 @@ export const projectsData = [
     info: 'Angular Development',
     info2: [
       'Designed and developed dashboard for customers with charts using Apex Charts and bootstrap tables',
+      'Used Angular signals',
+      'Used Tailwind CSS for styling',
       'Organized dashboard for reusable use on different roles',
       "Implemented REST API's",
       'Implemented Firebase Authentication',
       'Added section for editing personal profile',
-      'Used newly added Angular signals',
     ],
     url: 'https://angular-crud-firebase-cristikl5.vercel.app/auth/login',
     repo: 'https://github.com/cristikl5/Angular-16-CRUD',
