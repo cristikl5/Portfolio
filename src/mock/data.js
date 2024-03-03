@@ -69,6 +69,17 @@ export const projectsData = [
     url: 'https://angular-crud-firebase-cristikl5.vercel.app/auth/login',
     repo: 'https://github.com/cristikl5/Angular-16-CRUD',
   },
+  {
+    id: nanoid(),
+    img: 'Shopify-Logo.png',
+    title: 'Shopify Checkout extension',
+    info: 'React + Typescript Development',
+    info2: [
+      'Create custom features for merchants.',
+      'Integrate third-party services.',
+      'Implemented page after checkout to activate purchased product right away',
+    ],
+  },
 ];
 
 // CONTACT DATA
