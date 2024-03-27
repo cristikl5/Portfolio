@@ -80,6 +80,18 @@ export const projectsData = [
       'Implemented page after checkout to activate purchased product right away',
     ],
   },
+  {
+    id: nanoid(),
+    img: 'hr-portal.png',
+    title: 'Company HR Portal',
+    info: 'Angular + Tailwind Development',
+    info2: [
+      'Developed a custom dashboard interface for streamlined HR operations',
+      'Integrated various APIs for seamless data exchange with external systems.',
+      'Implemented user authentication and access control',
+      'Received positive feedback from HR professionals for the intuitive design',
+    ],
+  },
 ];
 
 // CONTACT DATA
